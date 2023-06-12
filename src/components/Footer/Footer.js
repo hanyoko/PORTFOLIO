@@ -54,7 +54,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/hanyoko_"
+                  href="https://www.instagram.com/koyohanyoko"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
