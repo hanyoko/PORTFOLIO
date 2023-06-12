@@ -471,12 +471,20 @@ html {
   /* About */
   /* --------- */
   
+  .about-me {
+    display: flex !important;
+    flex-direction: column;
+    /* background-color: yellow; */
+  }
   .about-section {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white !important;
+  }
+  .about-box {
+    display: flex !important;
   }
   .about-icons {
     font-size: 1em !important;
@@ -485,19 +493,46 @@ html {
     opacity: 0.93 !important;
     border: 1.7px solid rgb(89, 0, 190) !important;
     vertical-align: middle !important;
-    text-align: center !important;
     border-radius: 5px !important;
-    display: table !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
     box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
-    
+    width: 100% !important;
+    height: 30vh !important;
+  }
+
+  .box-middle {
+    line-height: 10vh !important;
+  }
+
+  .introduce {
+    font-size: 2.6em !important;
+  }
+
+  .about-span {
+    font-size: 17px !important;
   }
   
   @media (max-width: 767px) {
+    .about-box{
+      display: flex !important;
+    }
     .about-icons {
       margin: 10px !important;
-    }
+      font-size: 0.47em !important;
+     }
+    .introduce {
+      font-size: 1em !important;
+     }
+    .about-h {
+      font-size: 1.3em;
+     }
+    .about-span {
+      font-size: 0.3em !important;
+     }
   }
   
   .about-icons:hover {
@@ -578,6 +613,7 @@ html {
   padding-right: 25px !important;
   height: auto !important;
   /* margin-bottom: 100px !important; */
+  white-space: pre-wrap !important; 
 }
 
 .project-card-view {
@@ -810,6 +846,8 @@ html {
   .fork-btn-inner::after {
     display: none !important;
   }
+
+
   @keyframes fadein {
     0%{ opacity: 0;}
     100%{
@@ -819,3 +857,8 @@ html {
   .home {
     animation: fadein 1s forwards;
   }
+@media (max-width: 767px){
+  .contact-social-links {
+    display: flex !important;
+  }
+}

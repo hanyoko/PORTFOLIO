@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiFillInstagram
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { SiVelog, SiNotion } from "react-icons/si";
 import logo from "../../assets/han.png";
 
 const Footer = () => {
@@ -32,24 +32,24 @@ const Footer = () => {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/19sajib/"
+                  href="https://velog.io/@hanyoko"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedinIn />
+                  <SiVelog />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://hanyoko.notion.site"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <SiNotion />
                 </a>
               </li>
               <li className="social-icons">

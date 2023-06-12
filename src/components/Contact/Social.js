@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiFillInstagram
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { SiVelog, SiNotion } from "react-icons/si";
 import './Social.css'
 
 const Social = () => {
@@ -29,29 +29,29 @@ const Social = () => {
                       <AiFillGithub />
                     </a>
                   </li>
-                  {/* <li className="contact-icons">
-                    <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color  contact-social-icons"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li> */}
                   <li className="contact-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://velog.io/@hanyoko"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
                     >
-                      <FaLinkedinIn />
+                      <SiVelog />
                     </a>
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.instagram.com/hanyoko_"
+                      href="https://hanyoko.notion.site"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-color  contact-social-icons"
+                    >
+                      <SiNotion />
+                    </a>
+                  </li>
+                  <li className="contact-icons">
+                    <a
+                      href="https://www.instagram.com/koyohanyoko"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color contact-social-icons"

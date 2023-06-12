@@ -4,3 +4,21 @@ li { list-style: none; }
 img { vertical-align: top; border: none; }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 address { font-style: normal; }
+
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Raleway", "LINESeedKR-Bd", !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(5, 8, 40), rgb(1, 4, 39));
+}
