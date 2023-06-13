@@ -601,14 +601,14 @@ html {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 130px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
 
 .project-card {
   padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-bottom: 30px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -702,6 +702,12 @@ html {
   /* padding-top: 10px !important; */
 }
 
+@media (max-width: 767px) {
+  .project-heading {
+    font-size: 2em !important;
+    /* padding-top: 10px !important; */
+  }
+}
 
   /* --------- */
   /* Resume */

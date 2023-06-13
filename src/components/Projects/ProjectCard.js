@@ -11,12 +11,15 @@ const ProjectCard = (props) => {
       <Card.Body>
         <Card.Title style={{ color: "#fdf902" }}>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "center" }}>
+          {props.description6}
+        </Card.Text>
+        <Card.Text style={{ textAlign: "center", fontSize: "14px" }}>
           {props.description}
         </Card.Text>
         <Card.Text style={{ textAlign: "center" }}>
           {props.description2}
         </Card.Text>
-        <Card.Text style={{ textAlign: "center" }}>
+        <Card.Text style={{ textAlign: "center", fontSize: "14px" }}>
           {props.description3}
         </Card.Text>
         <Card.Text style={{ textAlign: "center" }}>
@@ -25,6 +28,7 @@ const ProjectCard = (props) => {
         <Card.Text style={{ textAlign: "center" }}>
           {props.description5}
         </Card.Text>
+        
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
