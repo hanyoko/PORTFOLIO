@@ -1,15 +1,11 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillInstagram
-} from "react-icons/ai";
-import { SiVelog, SiNotion } from "react-icons/si";
+import { SiInstagram, SiGithub, SiVelog, SiNotion } from "react-icons/si";
 import './Social.css'
 
 const Social = () => {
   return (
-    <Container style={{paddingTop: '80px'}}>
+    <Container style={{ paddingTop: '80px', paddingBottom: '19px' }}>
     <Row>
               <Col md={12} className="contact-social">
                 <div className='contact-text'>
@@ -26,7 +22,7 @@ const Social = () => {
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
                     >
-                      <AiFillGithub />
+                      <SiGithub />
                     </a>
                   </li>
                   <li className="contact-icons">
@@ -56,7 +52,7 @@ const Social = () => {
                       rel="noreferrer"
                       className="icon-color contact-social-icons"
                     >
-                      <AiFillInstagram />
+                      <SiInstagram />
                     </a>
                   </li>
                 </ul>

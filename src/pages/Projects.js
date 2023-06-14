@@ -27,7 +27,7 @@ const Projects = () => {
               description6=" "
               description="Javascript / CSS / SCSS"
               description2="─────"
-              description3="Javascript 조건문 수업을 들었을 때, 이해가 되지 않아 복습을 위해 팀을 모아 만든 야구게임 프로젝트입니다."
+              description3="각 결과값에 맞는 이미지와 텍스트를 출력하도록 구현했습니다. 본인의 팀과 함께 자신의 확률을 시험해 보세요 Good Luck !"
               description4=" "
               ghLink="https://github.com/hanyoko/BASEBALL.git"
               demoLink="http://hanyoko.dothome.co.kr/baseball"
