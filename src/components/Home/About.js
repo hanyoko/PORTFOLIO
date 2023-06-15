@@ -37,7 +37,6 @@ const About = () => {
                       <p>Velog : https://velog.io/@hanyoko</p>
                       <p>Notion : https://hanyoko.notion.site</p>
                       <p>Github : https://github.com/hanyoko</p>
-                      {/* <p>Instagram : https://www.instagram.com/koyohanyoko</p> */}
                     </Col>
                   </Col>
                   <Col className="about-box">

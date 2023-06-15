@@ -36,7 +36,7 @@ const ProjectCard = (props) => {
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {/* component에 Demo 링크가 포함되어 있고 Blog가 아닌 경우 아래 구성 요소를 렌더링합니다  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
