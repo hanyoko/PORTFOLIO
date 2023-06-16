@@ -36,7 +36,7 @@ const ProjectCard = (props) => {
         {"\n"}
         {"\n"}
 
-        {/* component에 Demo 링크가 포함되어 있고 Blog가 아닌 경우 아래 구성 요소를 렌더링합니다  */}
+        {/* component에 Demo 링크가 포함되어 있고 Blog가 아닌 경우 아래 component를 렌더링  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
