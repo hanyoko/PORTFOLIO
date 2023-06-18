@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { BsCalendarEventFill, BsPersonFill, BsPhoneFill } from "react-icons/bs";
 import { FaUniversity } from "react-icons/fa";
-
 // import LaptopImg from "../../assets/yohan2.PNG";
 // import Tilt from "react-parallax-tilt";
 // import {
@@ -11,7 +10,6 @@ import { FaUniversity } from "react-icons/fa";
 //   AiFillInstagram,
 // } from "react-icons/ai";
 // import { FaLinkedinIn } from "react-icons/fa";
-
 
 const About = () => {
     return (
@@ -53,53 +51,12 @@ const About = () => {
                     <Col className="about-icons">
                       <h1 className="yellow about-h">doing these days ...</h1>
                       <p>ㆍ정보처리기사 실기 공부</p>
-                      <p>ㆍ코딩테스트를 위한 인터넷 강의</p>
-                      <p>ㆍ학습내용 복습 및 velog에 세부정리</p>
+                      <p>ㆍ프로그래머스 문제 풀기</p>
+                      <p>ㆍ학습내용 복습 및 velog에 정리</p>
                       <p>ㆍNomadcoders Challenge JS, TS</p>
                     </Col>
                   </Col>
                 </Col>
-                {/* <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
-                <br />
-                <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
-                <br />
-                <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
-                  <br />
-                  <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
-                  <br />
-                  <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
-                  <i>
-                    <b className="yellow">
-                      {" "}
-                      modern Javascript libraries and frameworks
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i>
-                  <br />
-                  <br />
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
-                  </i>
-                  <br />
-                  
-                </p> */}
               </Col>
               {/* <Col md={4} className="myAvtar">
                 <Tilt>
