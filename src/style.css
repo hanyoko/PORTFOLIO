@@ -26,7 +26,7 @@ html {
   }
   
   /* --------- */
-  /*  Preloader */
+  /* Preloader */
   /* --------- */
   #preloader {
     position: fixed;
@@ -51,7 +51,7 @@ html {
   }
   
   /* --------- */
-  /*Scrollbar   */
+  /* Scrollbar */
   /* --------- */
   
   ::-webkit-scrollbar {
@@ -75,9 +75,9 @@ html {
     border-radius: 12px;
   }
   
-  /* --------- */
-  /* Navbar Section  */
-  /* --------- */
+  /* -------------- */
+  /* Navbar Section */
+  /* -------------- */
   .sticky {
     background-color: #38007731 !important;
     transition: all 0.3s ease-out 0s !important;
@@ -208,9 +208,9 @@ html {
     width: 100%;
   }
   
-  /* --------- */
+  /* ------------ */
   /* Home section */
-  /* --------- */
+  /* ------------ */
   .wave {
     animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
     animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -344,7 +344,7 @@ html {
   }
 
   /* --------- */
-  /* Footer */
+  /*  Footer   */
   /* --------- */
   .footer {
     background-color: rgb(1, 6, 36);
@@ -391,7 +391,7 @@ html {
   }
 
   /* --------- */
-  /* About */
+  /*   About   */
   /* --------- */
   
   .home-about-section {
@@ -534,7 +534,7 @@ html {
   }
 
 /* --------- */
-/* Projects */
+/* Projects  */
 /* --------- */
 .project-section {
   position: relative !important;
@@ -647,7 +647,7 @@ html {
 }
 
   /* --------- */
-  /* Resume */
+  /*  Resume  */
   /* --------- */
   
   .resume-section {
@@ -791,6 +791,9 @@ html {
   }
 
 
+/* --------- */
+/*   First   */
+/* --------- */
   @keyframes fadein {
     0%{ opacity: 0;}
     100%{
