@@ -5,14 +5,14 @@ import './Social.css'
 
 const Social = () => {
   return (
-    <Container style={{ paddingTop: '80px', paddingBottom: '19px' }}>
+    <Container style={{ paddingTop: '65px' }}>
     <Row>
               <Col md={12} className="contact-social">
                 <div className='contact-text'>
-                <h1>FIND ME ON</h1>
-                <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
-                </p>
+                  <h1>FIND ME ON</h1>
+                  <p>
+                  Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+                  </p>
                 </div>
                 <ul className="contact-social-links">
                   <li className="contact-icons">

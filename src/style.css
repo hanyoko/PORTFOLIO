@@ -539,14 +539,14 @@ html {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 130px !important;
-  padding-bottom: 30px !important;
+  padding-top: 110px !important;
+  padding-bottom: 20px !important;
   background-image: var(--section-background-color) !important;
 }
 
 .project-card {
   padding-top: 50px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 28px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
