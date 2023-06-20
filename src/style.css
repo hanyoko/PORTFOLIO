@@ -452,6 +452,7 @@ html {
 
   .about-span {
     font-size: 17px !important;
+    color: #e9fa00 !important;
   }
   
   @media (max-width: 767px) {

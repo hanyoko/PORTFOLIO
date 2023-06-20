@@ -50,10 +50,11 @@ const About = () => {
                     </Col>
                     <Col className="about-icons">
                       <h1 className="yellow about-h">doing these days ...</h1>
-                      <p>ㆍ정보처리기사 실기 공부</p>
-                      <p>ㆍ프로그래머스 문제 풀기</p>
-                      <p>ㆍ학습내용 복습 및 velog에 정리</p>
-                      <p>ㆍNomadcoders Challenge JS, TS</p>
+                      <p>ㆍ학습내용 복습 및 velog에 정리<span className="about-span"> - ing</span></p>
+                      <p>ㆍ정보처리기사 공부<span className="about-span"> - 23.06.14 필기 합격 / 실기 준비 中</span></p>
+                      {/* <p>ㆍ프로그래머스 문제 풀기</p> */}
+                      <p>ㆍNomadcoders Challenge JS<span className="about-span"> - 23.05.29 수료</span></p>
+                      <p>ㆍNomadcoders Challenge TS<span className="about-span"> - 23.06.19 수료</span></p>
                     </Col>
                   </Col>
                 </Col>
