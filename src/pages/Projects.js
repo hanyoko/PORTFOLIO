@@ -58,7 +58,7 @@ const Projects = () => {
               description2="─────"
               description3="Covid-19이 지나간 후, 다시 시작된 여행 ! 각 지역에 살아본 사람들이 모여서 만든 The Nadlee. 직접 여행 일정을 짜고 루트를 만들어 볼 수 있으며, 경험으로 만든 추천 일정 및 여행 시기에 맞는 여행 Tip도 추천해 줍니다 !"
               ghLink="https://github.com/hanyoko/THENADLEE.git"
-              demoLink="https://team-project-thenadlee.vercel.app/"
+              demoLink="https://thenadlee.vercel.app/"
             />
           </Col>
 
