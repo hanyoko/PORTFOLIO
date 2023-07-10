@@ -470,7 +470,7 @@ html {
       font-size: 0.5em !important;
      }
     .about-icons p {
-      font-size: 1.3em !important;
+      font-size: 1.2em !important;
     }
     .introduce {
       font-size: 1.6em !important;
@@ -479,7 +479,7 @@ html {
       font-size: 2em;
      }
     .about-span {
-      font-size: 0.5em !important;
+      font-size: 0.6em !important;
      }
   }
   
@@ -698,15 +698,3 @@ html {
   .home {
     animation: fadein 1s forwards;
   }
-
-  /* ------------ */
-  /*  Contact Me  */
-  /* ------------ */  
-@media (max-width: 767px){
-  .contact-social-links {
-    display: flex !important;
-  }
-  .contact-icons {
-    width: 35% !important;
-  }
-}
