@@ -698,3 +698,18 @@ html {
   .home {
     animation: fadein 1s forwards;
   }
+
+
+/* --------- */
+/*  Contact  */
+/* --------- */
+
+@media (max-width: 767px) {
+.contact-social-links {
+  display: flex !important;
+}
+.contact-icons {
+  width: 37% !important;
+}
+}
+  
