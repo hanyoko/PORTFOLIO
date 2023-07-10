@@ -707,6 +707,8 @@ html {
 @media (max-width: 767px) {
 .contact-social-links {
   display: flex !important;
+  text-align: center;
+  align-items: center;
 }
 .contact-icons {
   width: 37% !important;
