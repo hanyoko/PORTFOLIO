@@ -11,7 +11,7 @@ const Skillset = () => {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading" >
           Professional <strong className="yellow">Skillset </strong>
         </h1>
 

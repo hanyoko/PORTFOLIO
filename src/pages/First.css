@@ -21,3 +21,10 @@ h1 {
 .left, .right {
     color: #7500fa;
 }
+
+@media (max-width: 767px){
+    .first {
+        font-size: 6em !important;
+        padding-top: 0.7em;
+    }
+  }
