@@ -374,11 +374,12 @@ html {
     }
   }
   
-  .footer h3 {
-    font-size: 1em;
+  .footer h3, img {
+    /* font-size: 1em;
     color: white !important;
     margin-top: 0.5em !important;
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0.5em !important; */
+    display: none !important; 
   }
   .footer-icons {
     margin-top: 0.5em !important;
