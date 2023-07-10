@@ -462,14 +462,15 @@ html {
     .about-box {
       display: flex !important;
       flex-direction: column !important;
+      text-align: center !important;
+      align-items: center !important;
     }
     .about-icons {
       margin: 10px !important;
-      font-size: 0.47em !important;
-      padding: 0 !important;
+      font-size: 0.5em !important;
      }
     .about-icons p {
-      font-size: 1.5em !important;
+      font-size: 1.3em !important;
     }
     .introduce {
       font-size: 1.5em !important;
@@ -478,7 +479,7 @@ html {
       font-size: 2em;
      }
     .about-span {
-      font-size: 0.7em !important;
+      font-size: 0.5em !important;
      }
   }
   
