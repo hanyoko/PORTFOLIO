@@ -705,4 +705,7 @@ html {
   .contact-social-links {
     display: flex !important;
   }
+  .contact-icons {
+    width: 38% !important;
+  }
 }
