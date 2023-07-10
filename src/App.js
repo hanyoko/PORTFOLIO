@@ -9,7 +9,6 @@ import {
 import Home from './pages/Home'
 import Skill from './pages/Skillset'
 import Project from './pages/Projects'
-//import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 
 import Navbar from "./components/Navbar/Navbar";
@@ -46,7 +45,6 @@ function App() {
           <Route path="/home" element={<><Navbar /><Home /><Footer /> </>} />
           <Route path="/skillset" element={<><Navbar /><Skill /><Footer /></>} />
           <Route path="/project" element={<><Navbar /><Project /><Footer /></>} />
-          {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="/contact" element={<><Navbar /><Contact /><Footer /></>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

@@ -2,14 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { BsCalendarEventFill, BsPersonFill, BsPhoneFill } from "react-icons/bs";
 import { FaUniversity } from "react-icons/fa";
-// import LaptopImg from "../../assets/yohan2.PNG";
-// import Tilt from "react-parallax-tilt";
-// import {
-//   AiFillGithub,
-//   // AiOutlineTwitter,
-//   AiFillInstagram,
-// } from "react-icons/ai";
-// import { FaLinkedinIn } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -52,69 +44,14 @@ const About = () => {
                       <h1 className="yellow about-h">doing these days ...</h1>
                       <p>ㆍ학습내용 복습 및 velog에 정리<span className="about-span"> - ing</span></p>
                       <p>ㆍ정보처리기사 공부<span className="about-span"> - 23.06.14 필기 합격 / 실기 준비 中</span></p>
-                      {/* <p>ㆍ프로그래머스 문제 풀기</p> */}
                       <p>ㆍNomadcoders Challenge JS<span className="about-span"> - 23.05.29 수료</span></p>
                       <p>ㆍNomadcoders Challenge TS<span className="about-span"> - 23.06.19 수료</span></p>
                     </Col>
                   </Col>
                 </Col>
               </Col>
-              {/* <Col md={4} className="myAvtar">
-                <Tilt>
-                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
-                </Tilt>
-              </Col> */}
             </Row>
-            {/* <Row>
-              <Col md={12} className="home-about-social">
-                <h1>FIND ME ON</h1>
-                <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
-                </p>
-                <ul className="home-about-social-links">
-                  <li className="social-icons">
-                    <a
-                      href="https://github.com/hanyoko"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                    >
-                      <AiFillGithub />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.instagram.com/hanyoko_"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                    >
-                      <AiFillInstagram />
-                    </a>
-                  </li>
-                </ul>
-              </Col>
-            </Row> */}
+            
           </Container>
         </Container>
       );

@@ -43,10 +43,9 @@ const ProjectCard = (props) => {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {" Demo "}
           </Button>
         )}
       </Card.Body>

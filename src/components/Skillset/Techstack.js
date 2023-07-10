@@ -19,7 +19,6 @@ import {
 import {
   FaNode
 } from "react-icons/fa"
-// import "./Techstack.scss";
 import { Col, Row } from "react-bootstrap";
 
 const Techstack = () => {
