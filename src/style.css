@@ -473,7 +473,7 @@ html {
       font-size: 1.3em !important;
     }
     .introduce {
-      font-size: 1.3em !important;
+      font-size: 2em !important;
      }
     .about-h {
       font-size: 2em;
@@ -651,7 +651,7 @@ html {
 
 @media (max-width: 767px) {
   .project-heading {
-    font-size: 1.7em !important;
+    font-size: 1.5em !important;
     padding-top: 10px !important;
   }
 }
