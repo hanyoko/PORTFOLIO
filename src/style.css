@@ -365,14 +365,14 @@ html {
   }
   
   @media (max-width: 767px) {
-    .footer-copywright {
+    /* .footer-copywright {
       text-align: center !important;
     }
   
     .footer-body {
       text-align: center !important;
-    }
-    .footer h3, .footer img {
+    } */
+    .footer  {
       display: none !important; 
     }
   }
@@ -468,14 +468,17 @@ html {
       font-size: 0.47em !important;
       padding: 0 !important;
      }
+    .about-icons p {
+      font-size: 1.5em !important;
+    }
     .introduce {
-      font-size: 1em !important;
+      font-size: 1.5em !important;
      }
     .about-h {
-      font-size: 1.3em;
+      font-size: 2em;
      }
     .about-span {
-      font-size: 0.5em !important;
+      font-size: 0.7em !important;
      }
   }
   
@@ -647,8 +650,8 @@ html {
 
 @media (max-width: 767px) {
   .project-heading {
-    font-size: 2em !important;
-    /* padding-top: 10px !important; */
+    font-size: 1.8em !important;
+    padding-top: 10px !important;
   }
 }
 
