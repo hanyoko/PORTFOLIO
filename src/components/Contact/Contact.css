@@ -86,7 +86,6 @@ textarea{
     }
     .contact-social-links {
         display: flex !important;
-        justify-content: space-around !important;
       }
     .contact-icons {
         width: 38% !important;
