@@ -473,7 +473,7 @@ html {
       font-size: 1.3em !important;
     }
     .introduce {
-      font-size: 2em !important;
+      font-size: 1.6em !important;
      }
     .about-h {
       font-size: 2em;
@@ -651,8 +651,9 @@ html {
 
 @media (max-width: 767px) {
   .project-heading {
-    font-size: 1.5em !important;
-    padding-top: 10px !important;
+    font-size: 2em !important;
+    padding: 10px 0 0 0 !important;
+    margin: 0 !important;
   }
 }
 
@@ -706,6 +707,6 @@ html {
     display: flex !important;
   }
   .contact-icons {
-    width: 38% !important;
+    width: 35% !important;
   }
 }

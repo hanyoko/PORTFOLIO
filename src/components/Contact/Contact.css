@@ -1,3 +1,8 @@
+
+/* ------------ */
+/*  Contact Me  */
+/* ------------ */  
+
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
@@ -68,13 +73,21 @@ textarea{
 
 @media screen and (max-width: 480px) {
     .contact-form{
-        padding: 0;
+        /* padding: 0; */
         flex-direction: column;
         gap: 5rem;
         height: 40rem;
     }
+    .c-left {
+        padding-bottom: 1em !important;
+    }
     .c-right .user{
         width: 16rem;
     }
-
+    .contact-social-links {
+        display: flex !important;
+      }
+    .contact-icons {
+        width: 20% !important;
+    }
 }
