@@ -372,14 +372,16 @@ html {
     .footer-body {
       text-align: center !important;
     }
+    .footer h3, .footer img {
+      display: none !important; 
+    }
   }
   
-  .footer h3, img {
-    /* font-size: 1em;
+  .footer h3{
+    font-size: 1em;
     color: white !important;
     margin-top: 0.5em !important;
-    margin-bottom: 0.5em !important; */
-    display: none !important; 
+    margin-bottom: 0.5em !important;
   }
   .footer-icons {
     margin-top: 0.5em !important;
@@ -457,12 +459,14 @@ html {
   }
   
   @media (max-width: 767px) {
-    .about-box{
+    .about-box {
       display: flex !important;
+      flex-direction: column !important;
     }
     .about-icons {
       margin: 10px !important;
       font-size: 0.47em !important;
+      padding: 0 !important;
      }
     .introduce {
       font-size: 1em !important;
@@ -471,7 +475,7 @@ html {
       font-size: 1.3em;
      }
     .about-span {
-      font-size: 0.3em !important;
+      font-size: 0.5em !important;
      }
   }
   
