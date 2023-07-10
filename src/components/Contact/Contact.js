@@ -53,9 +53,9 @@ const Contact = () => {
             </Col>
             <Col md={6} className="c-right">
                 <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="from_name" className="user"  placeholder="Name" onChange={handleChange}/>
-                <input type="email" name="reply_to" className="user" placeholder="Email" onChange={handleChange} />
-                <textarea name="message" className="user" placeholder="Message" onChange={handleChange} />
+                <input type="text" name="from_name" className="user"  placeholder=" Name" onChange={handleChange}/>
+                <input type="email" name="reply_to" className="user" placeholder=" Email" onChange={handleChange} />
+                <textarea name="message" className="user" placeholder=" Message" onChange={handleChange} />
                 <span className='not-done' >{notDone && "빈칸을 채워주시면 메일이 발송됩니다 😊"}</span>
                 <Button type="submit" className="button" disabled={done}>Send</Button>
                 <span className='done'>{done && "메일이 성공적으로 보내졌습니다. 감사합니다 😊"}</span>
