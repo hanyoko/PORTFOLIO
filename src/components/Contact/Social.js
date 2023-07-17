@@ -37,7 +37,7 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://hanyoko.notion.site"
+                      href="https://www.notion.so/hanyoko/e6d05846a3be4c75b670f494e6620524?v=5981dde458c145a883c962ca372e7291"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
